@@ -1,0 +1,238 @@
+/* input[type="text"]
+{
+    background: red;
+}
+input[type="email"]
+{
+    background: yellow;
+}
+input[type="password"]
+{
+    background: blue;
+}
+input[type="submit"]
+{
+    background: green;
+}
+
+input[type="reset"]
+{
+    background: orange;
+} */
+/* Center the form and limit its width */
+.container {
+    max-width: 400px; /* Set a maximum width */
+    width: 100%; /* Allow to shrink to fit the content */
+    padding: 20px; /* Padding inside the container */
+    background-color: white; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    box-sizing: border-box; /* Include padding in the width */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f5f5f5; /* Background color */
+}
+.form-group{
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    max-width: 400px; /* Set a maximum width */
+    width: 100%; /* Allow it to shrink to fit content */
+    margin-bottom: 15px; /* Space between form groups */
+    box-sizing: border-box; /* Include padding/border in the element's width */
+    padding: 10px; /* Add padding for better appearance */
+    background-color: white; /* Background color for the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.form-label{
+    color:red;
+    font-size:20px;
+    margin-right: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    min-width: 100px; /* Set a minimum width for labels */
+
+
+}
+.form-control{
+    border: blue 2px solid;
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensure padding does not affect width */
+    background: pink;
+
+}
+
+.head{
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    max-width: 400px;
+    width:100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* Button styling */
+input[type="submit"],
+input[type="reset"] {
+    flex: none; /* Prevent stretching */
+    border: 1px solid #ccc; /* Example border style */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #007bff; /* Example background color */
+    width:50%;
+    margin: 0px;
+    max-width: 400px;
+    color: white; /* Text color */
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    color:red;
+    font-size: 30px;
+    background-color: #0056b3;
+}
+@media (max-width: 500px) {
+    .form-group {
+        flex-direction: column; /* Stack labels and inputs */
+        align-items: stretch; /* Stretch to fit the container */
+    }
+
+    .form-label {
+        text-align: left; /* Align label text to the left */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 5px; /* Add margin below the label */
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 10px; /* Add margin above the button */
+    }
+}
+.square{
+    background-color: #7d7d7d80;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-image: url('/images/15.jpg');
+    background-size:166.66px 166.66px;
+    background-position:center top;
+    background-repeat:repeat;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items:baseline; /* Center vertically */
+}
+.square1{
+    background-color: #7d7d7d80;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-image: url('/images/13.jpg');
+    background-size:166.66px 166.66px;
+    background-position:10px 10px 10px 10px;
+    background-repeat:repeat;
+    margin:5px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items:baseline; /* Center vertically */
+}
+.square p {
+    /* Your CSS styles here */
+    color: red; /* Example: change text color to red */
+    font-size: 16px; /* Example: change font size */
+    background-color: yellow; /* Example: change background color */
+    text-align: center;
+    width: 500px;
+    width:50%;
+
+}
+.square1 p {
+    /* Your CSS styles here */
+    color: red; /* Example: change text color to red */
+    font-size: 16px; /* Example: change font size */
+    background-color: yellow; /* Example: change background color */
+    text-align: center;
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+
+}
+a{
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+text-decoration:underline ;
+}
+a:hover{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color:black;
+    font-size:25px;
+
+}
+p {
+    color:blue;
+    font-size:100px;
+
+}
+.name1 {
+    color:blue;
+    font-size:100px;
+}
+.name2 {
+    color:blue;
+    font-size:50px;
+}
+.name3 {
+    color:blue;
+    font-size:25px;
+}
+.name4{
+    color:blue;
+    font-size:12.5px;
+}
+
+#name1 {
+    color:red;
+    font-size:50px;
+}
+#name2 {
+    color:red;
+    font-size:25px;
+}
+#name3 {
+    color:red;
+    font-size:12px;
+}
+

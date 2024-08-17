@@ -1,0 +1,31 @@
+.block{
+    font-size: 50px;
+    background: red ;
+    margin: 20px;
+    display:inline-block;
+    width:150px;
+    padding:50px;
+    text-align: center ;
+    color: white;
+    border:green 2px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
+    cursor: pointer;
+/* visibility: hidden; */
+}
+.over-flow{
+    font-size: 20px;
+    background-color: blueviolet;
+    height: 200px;
+    width: 50%;
+    overflow: auto;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
+    text-align: center;
+
+}

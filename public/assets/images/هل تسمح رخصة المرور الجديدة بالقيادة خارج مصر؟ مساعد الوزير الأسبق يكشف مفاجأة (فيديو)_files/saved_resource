@@ -1,0 +1,43 @@
+
+var ftGUID_7936255="602878E0001856";
+var ftConfID_7936255="0";
+var ftParams_7936255="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=www.almasryalyoum.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.almasryalyoum.com%2Fnews%2Fdetails%2F3030560&gdpr=0&gdpr_consent=&us_privacy=${US_PRIVACY}&bundle_id=&site_url=https://www.almasryalyoum.com/news/details/3030560&ft_partnerimpid=ABAjH0gymgd6km0BkjvI_fRQW6lv&pub_id=1&sup_platform=1&cachebuster=931970.0042969907";
+var ftKeyword_7936255="";
+var ftCustom_7936255="";
+var ftSection_7936255="";
+var ftSegment_7936255="";
+var ftSegmentList_7936255=[];
+var ftRuleMatch_7936255="0";
+var ftTimestamp_7936255="1721555190";
+var ftGeoC2_7936255="eg";
+var ftGeoState_7936255="gz";
+var ftGeoCity_7936255="zaoyah thabt";
+var ftISP_7936255="te data";
+var ftSpeed_7936255="broadband";
+var ftConnType_7936255="wifi";
+var ftDMA_7936255="-1";
+var ftLong_7936255="31.14";
+var ftLat_7936255="30.12";
+var ftPostal_7936255="12881";
+var ftTimeZone_7936255="+300";
+var ftMobileCarrier_7936255="";
+var ftImp7936255 = {};
+ftImp7936255.privacy = "x";
+ftImp7936255.guidAge = "18";
+ftImp7936255.impID = "6A691AE7-09D3-F9C7-C857-FA08897B7EA1";
+ftImp7936255.duid = "FT:602878E0001856";
+
+ftImp7936255.ft_tpplid = "";
+ftImp7936255.ft_c = {};
+ftImp7936255.gdpr = "0";
+ftImp7936255.gdpr_consent = "";
+ftImp7936255.gdpr_pd = "";
+ftImp7936255.oob_consent = "";
+ftImp7936255.gdprStoredConsent = "";
+ftImp7936255.us_privacy = "!!US_PRIVACY!";
+ftImp7936255.gpc = "";
+
+var ftCreativeId_7936255 = "4064100";
+document.write('<scr'+'ipt src="https://ajs-assets.ftstatic.com/ftUtils.js" id="ftscript_m7936255" name="ftscript_m7936255"></scr'+'ipt>');window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("7936255");
+
+

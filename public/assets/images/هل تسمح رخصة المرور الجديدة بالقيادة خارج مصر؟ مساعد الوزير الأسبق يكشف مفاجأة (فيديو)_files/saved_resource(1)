@@ -1,0 +1,43 @@
+
+var ftGUID_7936254="602878E0001856";
+var ftConfID_7936254="0";
+var ftParams_7936254="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.almasryalyoum.com%2Fnews%2Fdetails%2F3030560&gdpr=0&gdpr_consent=&us_privacy=${US_PRIVACY}&bundle_id=&site_url=https://www.almasryalyoum.com/news/details/3030560&ft_partnerimpid=ABAjH0hQ_EbSHR1THKWQ1-i1Il5C&pub_id=1&sup_platform=1&cachebuster=414927.09794177493";
+var ftKeyword_7936254="";
+var ftCustom_7936254="";
+var ftSection_7936254="";
+var ftSegment_7936254="";
+var ftSegmentList_7936254=[];
+var ftRuleMatch_7936254="0";
+var ftTimestamp_7936254="1721555195";
+var ftGeoC2_7936254="eg";
+var ftGeoState_7936254="gz";
+var ftGeoCity_7936254="zaoyah thabt";
+var ftISP_7936254="te data";
+var ftSpeed_7936254="broadband";
+var ftConnType_7936254="wifi";
+var ftDMA_7936254="-1";
+var ftLong_7936254="31.14";
+var ftLat_7936254="30.12";
+var ftPostal_7936254="12881";
+var ftTimeZone_7936254="+300";
+var ftMobileCarrier_7936254="";
+var ftImp7936254 = {};
+ftImp7936254.privacy = "x";
+ftImp7936254.guidAge = "18";
+ftImp7936254.impID = "DF53CC5B-16AB-BB29-2BB4-2E6FB39DCAEB";
+ftImp7936254.duid = "FT:602878E0001856";
+
+ftImp7936254.ft_tpplid = "";
+ftImp7936254.ft_c = {};
+ftImp7936254.gdpr = "0";
+ftImp7936254.gdpr_consent = "";
+ftImp7936254.gdpr_pd = "";
+ftImp7936254.oob_consent = "";
+ftImp7936254.gdprStoredConsent = "";
+ftImp7936254.us_privacy = "!!US_PRIVACY!";
+ftImp7936254.gpc = "";
+
+var ftCreativeId_7936254 = "4080655";
+document.write('<scr'+'ipt src="https://ajs-assets.ftstatic.com/ftUtils.js" id="ftscript_m7936254" name="ftscript_m7936254"></scr'+'ipt>');window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("7936254");
+
+

@@ -1,0 +1,5 @@
+.select2-container--bootstrap-5.select2-container--focus .select2-selection, .select2-container--bootstrap-5.select2-container--open .select2-selection{
+    border-color: #ccc!important;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%)!important;
+  
+  }

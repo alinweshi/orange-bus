@@ -1,0 +1,88 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "غسيل سيارات أساسي",
+            "description": "خدمة غسيل السيارات القياسية",
+            "vendor_type": "car-wash",
+            "price": 20.00
+        },
+        {
+            "id": 2,
+            "name": "غسيل سيارات فاخر",
+            "description": "خدمة غسيل سيارات ممتازة مع تلميع",
+            "vendor_type": "car-wash",
+            "price": 30.00
+        },
+        {
+            "id": 3,
+            "name": "تغيير زيت",
+            "description": "خدمة تغيير الزيت القياسية",
+            "vendor_type": "car-repair",
+            "price": 50.00
+        },
+        {
+            "id": 4,
+            "name": "استبدال الفرامل",
+            "description": "استبدال وسادات وأقراص الفرامل",
+            "vendor_type": "car-repair",
+            "price": 150.00
+        },
+        {
+            "id": 5,
+            "name": "تدوير الإطارات",
+            "description": "تدوير الإطارات لتآكل متساوي",
+            "vendor_type": "tyre-replacement",
+            "price": 30.00
+        },
+        {
+            "id": 6,
+            "name": "محاذاة العجلات",
+            "description": "محاذاة العجلات للحصول على تحكم صحيح في المركبة",
+            "vendor_type": "tyre-replacement",
+            "price": 50.00
+        },
+        {
+            "id": 7,
+            "name": "توصيل البقالة",
+            "description": "توصيل البقالة إلى باب منزلك",
+            "vendor_type": "supermarket",
+            "price": 5.00
+        },
+        {
+            "id": 8,
+            "name": "أطعمة خاصة",
+            "description": "تقديم مواد غذائية خاصة",
+            "vendor_type": "supermarket",
+            "price": 10.00
+        },
+        {
+            "id": 9,
+            "name": "إعادة تعبئة الوصفات الطبية",
+            "description": "إعادة تعبئة الأدوية بوصفة طبية",
+            "vendor_type": "pharmacy",
+            "price": 15.00
+        },
+        {
+            "id": 10,
+            "name": "استشارة صحية",
+            "description": "تقديم خدمات الاستشارة الصحية",
+            "vendor_type": "pharmacy",
+            "price": 20.00
+        },
+        {
+            "id": 11,
+            "name": "وجبة كومبو برجر",
+            "description": "وجبة كومبو تحتوي على برجر، بطاطس، ومشروب",
+            "vendor_type": "food and beverage",
+            "price": 8.00
+        },
+        {
+            "id": 12,
+            "name": "عرض البيتزا الخاص",
+            "description": "عرض خاص على البيتزا",
+            "vendor_type": "food and beverage",
+            "price": 12.00
+        }
+    ]
+}

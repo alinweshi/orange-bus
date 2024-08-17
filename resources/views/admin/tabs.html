@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-nav-layout="vertical" data-theme-mode="light" data-header-styles="light"
+    data-menu-styles="dark" data-toggled="close">
+
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Almas Arabic Pack</title>
+    <meta name="Description" content="Almas Arabic Pack" />
+    <meta name="Author" content="Almas Arabic Pack" />
+    <meta name="keywords" content="Almas Arabic Pack" />
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <!-- Choices JS -->
+    <script src="assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <!-- Main Theme Js -->
+    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap Css -->
+    <link id="style" href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Style Css -->
+    <link href="assets/css/styles.min.css" rel="stylesheet" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.css" rel="stylesheet" />
+    <!-- Node Waves Css -->
+    <link href="assets/libs/node-waves/waves.min.css" rel="stylesheet" />
+    <!-- Simplebar Css -->
+    <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet" />
+    <!-- Color Picker Css -->
+    <link rel="stylesheet" href="assets/libs/flatpickr/flatpickr.min.css" />
+    <link rel="stylesheet" href="assets/libs/%40simonwep/pickr/themes/nano.min.css" />
+    <!-- Choices Css -->
+    <link rel="stylesheet" href="assets/libs/choices.js/public/assets/styles/choices.min.css" />
+    <link rel="stylesheet" href="assets/libs/jsvectormap/css/jsvectormap.min.css" />
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css" />
+    <!-- selct2  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+    <link rel="stylesheet" href="assets/libs/quill/quill.snow.css" />
+    <link rel="stylesheet" href="assets/libs/quill/quill.bubble.css" />
+
+
+    <link rel="stylesheet" href="assets/css/adminstyle.css">
+
+</head>
+
+<body>
+
+    <div class="page">
+        <!-- app-header -->
+        <header class="app-header">
+            <!-- Start::main-header-container -->
+            <div class="main-header-container container-fluid">
+                <!-- Start::header-content-left -->
+                <div class="header-content-left">
+                    <!-- Start::header-element -->
+                    <div class="header-element">
+                        <div class="horizontal-logo">
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/images/logo22.png" alt="logo" class="desktop-logo" />
+                                <img src="assets/images/favicon.png" alt="logo" class="toggle-logo" />
+                                <img src="assets/images/logo12.png" alt="logo" class="desktop-dark" />
+                                <img src="assets/images/favicon.png" alt="logo" class="toggle-dark" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End::header-element -->
+                    <!-- Start::header-element -->
+                    <div class="header-element">
+                        <!-- Start::header-link -->
+                        <a aria-label="Hide Sidebar"
+                            class="sidemenu-toggle header-link animated-arrow hor-toggle horizontal-navtoggle"
+                            data-bs-toggle="sidebar" href="#"><span></span></a>
+                        <!-- End::header-link -->
+                    </div>
+                    <!-- End::header-element -->
+                </div>
+                <!-- End::header-content-left -->
+                <!-- Start::header-content-right -->
+                <div class="header-content-right">
+                    <!-- Start::header-element -->
+                    <div class="header-element header-search">
+                        <!-- Start::header-link -->
+                        <a href="#" class="header-link" data-bs-toggle="modal" data-bs-target="#searchModal"> <i
+                                class="bx bx-search-alt-2 header-link-icon"></i> </a>
+                        <!-- End::header-link -->
+                    </div>
+                    <!-- End::header-element -->
+                    <!-- Start::header-element -->
+                    <div class="header-element country-selector">
+                        <!-- Start::header-link|dropdown-toggle -->
+                        <a href="#" class="header-link dropdown-toggle" data-bs-auto-close="outside"
+                            data-bs-toggle="dropdown"> <img src="assets/images/flags/us_flag.jpg" alt="img"
+                                class="rounded-circle" /> </a>
+                        <!-- End::header-link|dropdown-toggle -->
+                        <ul class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img src="assets/images/flags/us_flag.jpg"
+                                            alt="img" /> </span> English
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img src="assets/images/flags/egypt.png"
+                                            alt="img" /> </span> Arabic
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img
+                                            src="assets/images/flags/french_flag.jpg" alt="img" /> </span> French
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img
+                                            src="assets/images/flags/germany_flag.jpg" alt="img" /> </span> German
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img
+                                            src="assets/images/flags/italy_flag.jpg" alt="img" /> </span> Italian
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img
+                                            src="assets/images/flags/russia_flag.jpg" alt="img" /> </span> Russian
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Start::header-element -->
+                    <div class="header-element cart-dropdown">
+                        <!-- Start::header-link|dropdown-toggle -->
+                        <a href="#" class="header-link dropdown-toggle" data-bs-auto-close="outside"
+                            data-bs-toggle="dropdown">
+                            <i class="bx bx-cart header-link-icon"></i> <span
+                                class="badge bg-primary rounded-pill header-icon-badge" id="cart-icon-badge">5</span>
+                        </a>
+                        <!-- End::header-link|dropdown-toggle -->
+                        <!-- Start::main-header-dropdown -->
+                        <div class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
+                            <div class="p-3">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p class="mb-0 fs-17 fw-semibold">Cart Items</p>
+                                    <span class="badge bg-success-transparent" id="cart-data">5 Items</span>
+                                </div>
+                            </div>
+                            <div>
+                                <hr class="dropdown-divider" />
+                            </div>
+                            <ul class="list-unstyled mb-0" id="header-cart-items-scroll">
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/1.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">SomeThing
+                                                        Phone</a></div>
+                                                <div>
+                                                    <span class="text-black mb-1">$1,299.00</span> <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="min-w-fit-content d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item d-flex">
+                                                    <li>Metallic Blue</li>
+                                                    <li>6gb Ram</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/3.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">Stop Watch</a>
+                                                </div>
+                                                <div>
+                                                    <span class="text-black mb-1">$179.29</span>
+                                                    <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="min-w-fit-content d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item">
+                                                    <li>Analog</li>
+                                                    <li><span class="badge bg-pink-transparent fs-10">Free
+                                                            shipping</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/5.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">Photo
+                                                        Frame</a></div>
+                                                <div>
+                                                    <span class="text-black mb-1">$29.00</span> <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="min-w-fit-content d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item d-flex">
+                                                    <li>Decorative</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/4.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">Kikon
+                                                        Camera</a></div>
+                                                <div>
+                                                    <span class="text-black mb-1">$4,999.00</span> <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="min-w-fit-content d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item d-flex">
+                                                    <li>Black</li>
+                                                    <li>50MM</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/6.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">Canvas
+                                                        Shoes</a></div>
+                                                <div>
+                                                    <span class="text-black mb-1">$129.00</span> <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item d-flex">
+                                                    <li>Gray</li>
+                                                    <li>Sports</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="p-3 empty-header-item border-top">
+                                <div class="d-grid"><a href="#" class="btn btn-primary">Proceed to checkout</a></div>
+                            </div>
+                            <!-- if Cart is Empty show this  -->
+                            <div class="p-5 empty-item d-none">
+                                <div class="text-center">
+                                    <span class="avatar avatar-xl avatar-rounded bg-warning-transparent"> <i
+                                            class="ri-shopping-cart-2-line fs-2"></i> </span>
+                                    <h6 class="fw-bold mb-1 mt-3">Your Cart is Empty</h6>
+                                    <span class="mb-3 fw-normal fs-13 d-block">Add some items to make me happy :)</span>
+                                    <a href="#" class="btn btn-primary btn-wave btn-sm m-1" data-abc="true">continue
+                                        shopping <i class="bi bi-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End::main-header-dropdown -->
+                    </div>
+                    <!-- End::header-element -->
+                    <!-- Start::header-element -->
+                    <div class="header-element notifications-dropdown">
+                        <!-- Start::header-link|dropdown-toggle -->
+                        <a href="#" class="header-link dropdown-toggle" data-bs-toggle="dropdown"
+                            data-bs-auto-close="outside" id="messageDropdown" aria-expanded="false">
+                            <i class="bx bx-bell header-link-icon"></i> <span
+                                class="badge bg-secondary rounded-pill header-icon-badge pulse pulse-secondary"
+                                id="notification-icon-badge">5</span>
+                        </a>
+                        <!-- End::header-link|dropdown-toggle -->
+                        <!-- Start::main-header-dropdown -->
+                        <div class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
+                            <div class="p-3">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p class="mb-0 fs-17 fw-semibold">Notifications</p>
+                                    <span class="badge bg-secondary-transparent" id="notifiation-data">5 Unread</span>
+                                </div>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <ul class="list-unstyled mb-0" id="header-notification-scroll">
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-primary-transparent avatar-rounded"><i
+                                                    class="ti ti-gift fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold"><a href="#">Your Order Has Been Shipped</a>
+                                                </p>
+                                                <span class="text-muted fw-normal fs-12 header-notification-text">Order
+                                                    No: 123456 Has Shipped To Your Delivery Address</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-secondary-transparent avatar-rounded"><i
+                                                    class="ti ti-discount-2 fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold"><a href="#">Discount Available</a></p>
+                                                <span
+                                                    class="text-muted fw-normal fs-12 header-notification-text">Discount
+                                                    Available On Selected Products</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-pink-transparent avatar-rounded"><i
+                                                    class="ti ti-user-check fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold"><a href="#">Account Has Been Verified</a>
+                                                </p>
+                                                <span class="text-muted fw-normal fs-12 header-notification-text">Your
+                                                    Account Has Been Verified Sucessfully</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-warning-transparent avatar-rounded"><i
+                                                    class="ti ti-circle-check fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold">
+                                                    <a href="#">Order Placed <span class="text-warning">ID:
+                                                            #1116773</span></a>
+                                                </p>
+                                                <span class="text-muted fw-normal fs-12 header-notification-text">Order
+                                                    Placed Successfully</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-success-transparent avatar-rounded"><i
+                                                    class="ti ti-clock fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold">
+                                                    <a href="#">Order Delayed <span class="text-success">ID:
+                                                            7731116</span></a>
+                                                </p>
+                                                <span class="text-muted fw-normal fs-12 header-notification-text">Order
+                                                    Delayed Unfortunately</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="p-3 empty-header-item1 border-top">
+                                <div class="d-grid"><a href="#" class="btn btn-primary">View All</a></div>
+                            </div>
+                            <!-- if No New Notifications  -->
+                            <div class="p-5 empty-item1 d-none">
+                                <div class="text-center">
+                                    <span class="avatar avatar-xl avatar-rounded bg-secondary-transparent"> <i
+                                            class="ri-notification-off-line fs-2"></i> </span>
+                                    <h6 class="fw-semibold mt-3">No New Notifications</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End::main-header-dropdown -->
+                    </div>
+                    <!-- End::header-element -->
+
+                    <!-- Start::header-element -->
+                    <div class="header-element">
+                        <!-- Start::header-link|dropdown-toggle -->
+                        <a href="#" class="header-link dropdown-toggle" id="mainHeaderProfile" data-bs-toggle="dropdown"
+                            data-bs-auto-close="outside" aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <div class="me-sm-2 me-0"><img src="assets/images/faces/9.jpg" alt="img" width="32"
+                                        height="32" class="rounded-circle" /></div>
+                                <div class="d-sm-block d-none">
+                                    <p class="fw-semibold mb-0 lh-1">Vendor Name </p>
+                                    <span class="op-7 fw-normal d-block fs-11">Web Designer</span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- End::header-link|dropdown-toggle -->
+                        <ul class="main-header-dropdown dropdown-menu pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end"
+                            aria-labelledby="mainHeaderProfile">
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i
+                                        class="ti ti-user-circle fs-18 me-2 op-7"></i>Profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i
+                                        class="ti ti-inbox fs-18 me-2 op-7"></i>Inbox <span
+                                        class="badge bg-success-transparent ms-auto">25</span></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex border-block-end" href="#"><i
+                                        class="ti ti-clipboard-check fs-18 me-2 op-7"></i>Task Manager</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i
+                                        class="ti ti-adjustments-horizontal fs-18 me-2 op-7"></i>Settings</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex border-block-end" href="#"><i
+                                        class="ti ti-wallet fs-18 me-2 op-7"></i>Bal: $7,12,950</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i
+                                        class="ti ti-headset fs-18 me-2 op-7"></i>Support</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i class="ti ti-logout fs-18 me-2 op-7"></i>Log
+                                    Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End::header-element -->
+
+                </div>
+                <!-- End::header-content-right -->
+            </div>
+            <!-- End::main-header-container -->
+        </header>
+        <!-- /app-header -->
+        <!-- Start::app-sidebar -->
+        <aside class="app-sidebar sticky" id="sidebar">
+            <!-- Start::main-sidebar-header -->
+            <div class="main-sidebar-header">
+                <a href="index.html" class="header-logo">
+                    <img src="assets/images/logo22.png" alt="logo" class="desktop-logo" />
+                    <img src="assets/images/favicon.png" alt="logo" class="toggle-logo" />
+                    <img src="assets/images/logo22.png" alt="logo" class="desktop-dark" />
+                    <img src="assets/images/favicon.png" alt="logo" class="toggle-dark" />
+                </a>
+            </div>
+            <!-- End::main-sidebar-header -->
+            <!-- Start::main-sidebar -->
+            <div class="main-sidebar" id="sidebar-scroll">
+                <!-- Start::nav -->
+                <nav class="main-menu-container nav nav-pills flex-column sub-open">
+                    <div class="slide-left" id="slide-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
+                        </svg>
+                    </div>
+                    <ul class="main-menu">
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item active"> <i class="bx bx-home side-menu__icon">
+                                </i> <span class="side-menu__label">Dashboard</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide__category -->
+                        <li class="slide__category"><span class="category-name"> Pages</span></li>
+                        <!-- End::slide__category -->
+                        <!-- Start::slide -->
+
+                        <li class="slide has-sub">
+                            <a href="#" class="side-menu__item"> <i class="bx bx-layer side-menu__icon"></i> <span
+                                    class="side-menu__label">
+                                    All components</span> <i class="fe fe-chevron-right side-menu__angle"></i> </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1"><a href="#"> All components </a></li>
+                                <li class="slide"><a href="tables.html" class="side-menu__item">tables </a></li>
+                                <li class="slide"><a href="forms.html" class="side-menu__item">forms </a></li>
+                                <li class="slide"><a href="alert&Pagination.html" class="side-menu__item">Alert &
+                                        Pagination </a></li>
+                                <li class="slide"><a href="cards.html" class="side-menu__item">Cards </a></li>
+                                <li class="slide"><a href="tabs.html" class="side-menu__item">Tabs & Accordions </a></li>
+                           
+                            </ul>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="bx bx-fingerprint side-menu__icon">
+                                </i> <span class="side-menu__label">Roles</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="ti ti-users side-menu__icon">
+                                </i> <span class="side-menu__label">Employees</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="bx bx-box side-menu__icon">
+                                </i> <span class="side-menu__label">Products</span> </a>
+                        </li>
+                        <!-- End::slide -->
+
+                        <!-- Start::slide -->
+                        <li class="slide has-sub">
+                            <a href="#" class="side-menu__item"> <i class="bx bx-layer side-menu__icon"></i> <span
+                                    class="side-menu__label">
+                                    All Order</span> <i class="fe fe-chevron-right side-menu__angle"></i> </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1"><a href="#">All Order</a></li>
+                                <li class="slide"><a href="#" class="side-menu__item">All Order</a></li>
+                                <li class="slide"><a href="#" class="side-menu__item">Requested Order</a></li>
+                                <li class="slide"><a href="#" class="side-menu__item">Assigned Order</a></li>
+                            </ul>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="bx bx-party side-menu__icon">
+                                </i> <span class="side-menu__label">Offers</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="ti ti-user-circle side-menu__icon">
+                                </i> <span class="side-menu__label">Vendor Profile</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide has-sub">
+                            <a href="#" class="side-menu__item"> <i class="bx bx-user side-menu__icon"></i> <span
+                                    class="side-menu__label">
+                                    Profile </span> <i class="fe fe-chevron-right side-menu__angle"></i> </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1"><a href="#"> My Profile </a></li>
+                                <li class="slide"><a href="#" class="side-menu__item"> My Profile </a></li>
+                                <li class="slide"><a href="#" class="side-menu__item">Change Password </a></li>
+
+                            </ul>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="bx bx-file side-menu__icon">
+                                </i> <span class="side-menu__label">Reports </span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="ti ti-headset side-menu__icon">
+                                </i> <span class="side-menu__label">Support </span> </a>
+                        </li>
+                        <!-- End::slide -->
+                    </ul>
+                    <div class="slide-right" id="slide-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                        </svg>
+                    </div>
+                </nav>
+                <!-- End::nav -->
+            </div>
+            <!-- End::main-sidebar -->
+        </aside>
+        <!-- End::app-sidebar -->
+        <!-- Start::app-content -->
+        <div class="main-content app-content">
+            <div class="container-fluid">
+                <!-- Page Header -->
+                <div class="d-md-flex d-block align-items-center justify-content-between my-4 page-header-breadcrumb">
+                    <h1 class="page-title fw-semibold fs-18 mb-0">tabs & Accordions</h1>
+                    <div class="ms-md-1 ms-0">
+                        <nav>
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item"><a href="#">tabs & Accordions</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">tabs & Accordions</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Page Header Close -->
+                <!-- Start::row-1 -->
+                <div class="row">
+                    <div class="col-md-12 col-xl-12">
+                        <div class="card custom-card">
+                            <div class="card-header"><div class="card-title">Tab Style-1</div></div>
+                            <div class="card-body">
+                                <ul class="nav nav-tabs tab-style-1 d-sm-flex d-block" role="tablist">
+                                    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#orders" aria-current="page" href="#orders">Orders</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#accepted" href="#accepted">Accepted</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#declined" href="#declined">Declined</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="orders" role="tabpanel">
+                                        <div class="text-muted">
+                                            <b>Lorem Ipsum is simply dummy text of the printing</b> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                            galley of type and scrambled.
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="accepted" role="tabpanel">
+                                        <div class="text-muted">
+                                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for <b>'lorem ipsum'</b> will uncover many web sites still in their infancy.
+                                            Various versions have evolved over the years.
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="declined" role="tabpanel">
+                                        <div class="text-muted">
+                                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <b>by injected humour</b>, or randomised words which don't look even
+                                            slightly believable
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xl-12">
+                    <div class="card custom-card">
+                        <div class="card-header"><div class="card-title">Vertical Tab Style-2</div></div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <ul class="nav nav-tabs flex-column vertical-tabs-2" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-bs-toggle="tab" role="tab" aria-current="page" href="#home-vertical-custom" aria-selected="true">
+                                                <p class="mb-1"><i class="ri-home-4-line"></i></p>
+                                                <p class="mb-0 text-break">Home</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" role="tab" aria-current="page" href="#about-vertical-custom" aria-selected="true">
+                                                <p class="mb-1"><i class="ri-phone-line"></i></p>
+                                                <p class="mb-0 text-break">About</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mb-0" data-bs-toggle="tab" role="tab" aria-current="page" href="#services-vertical-custom" aria-selected="true">
+                                                <p class="mb-1"><i class="ri-customer-service-line"></i></p>
+                                                <p class="mb-0 text-break">Services</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="tab-content">
+                                        <div class="tab-pane show active text-muted" id="home-vertical-custom" role="tabpanel">
+                                            <ul class="mb-0">
+                                                <li class="mb-2">
+                                                    How hotel deals can help you live a better life. <b>How celebrity cruises</b> aren't as bad as you think. How cultural solutions can help you predict the future. How to cheat at
+                                                    dog friendly hotels and get away with it. 17 problems with summer activities. How to cheat at travel agents and get away with it. How not knowing family trip ideas makes you a
+                                                    rookie. What everyone is saying about daily deals.
+                                                </li>
+                                                <li>
+                                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+                                                    even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane text-muted" id="about-vertical-custom" role="tabpanel">
+                                            <ul class="mb-0">
+                                                <li class="mb-2">
+                                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
+                                                    also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham,How hotel deals can help you live a better life.
+                                                    <b>How celebrity cruises</b>
+                                                </li>
+                                                <li>
+                                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                                    McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane text-muted" id="services-vertical-custom" role="tabpanel">
+                                            <ul class="mb-0">
+                                                <li class="mb-2">
+                                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+                                                    even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden.
+                                                </li>
+                                                <li>
+                                                    How hotel deals can help you live a better life. <b>How celebrity cruises</b> aren't as bad as you think. How cultural solutions can help you predict the future. How to cheat at
+                                                    dog friendly hotels and get away with it. 17 problems with summer activities. How to cheat at travel agents and get away with it. How not knowing family trip ideas makes you a
+                                                    rookie. What everyone is saying about daily deals.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h6 class="mb-3">  Accordions    :</h6>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="card custom-card">
+                        <div class="card-header justify-content-between">
+                            <div class="card-title">Primary</div>
+                          
+                        </div>
+                        <div class="card-body">
+                            <div class="accordion accordion-primary" id="accordionPrimaryExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPrimaryOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrimaryOne" aria-expanded="true" aria-controls="collapsePrimaryOne">Accordion Item #1</button>
+                                    </h2>
+                                    <div id="collapsePrimaryOne" class="accordion-collapse collapse show" aria-labelledby="headingPrimaryOne" data-bs-parent="#accordionPrimaryExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPrimaryTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrimaryTwo" aria-expanded="false" aria-controls="collapsePrimaryTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="collapsePrimaryTwo" class="accordion-collapse collapse" aria-labelledby="headingPrimaryTwo" data-bs-parent="#accordionPrimaryExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPrimaryThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePrimaryThree" aria-expanded="false" aria-controls="collapsePrimaryThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="collapsePrimaryThree" class="accordion-collapse collapse" aria-labelledby="headingPrimaryThree" data-bs-parent="#accordionPrimaryExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card custom-card">
+                        <div class="card-header justify-content-between">
+                            <div class="card-title">Secondary</div>
+                          
+                        </div>
+                        <div class="card-body">
+                            <div class="accordion accordion-secondary" id="accordionSecondaryExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSecondaryOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecondaryOne" aria-expanded="true" aria-controls="collapseSecondaryOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSecondaryOne" class="accordion-collapse collapse show" aria-labelledby="headingSecondaryOne" data-bs-parent="#accordionSecondaryExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSecondaryTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecondaryTwo" aria-expanded="false" aria-controls="collapseSecondaryTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSecondaryTwo" class="accordion-collapse collapse" aria-labelledby="headingSecondaryTwo" data-bs-parent="#accordionSecondaryExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSecondaryThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecondaryThree" aria-expanded="false" aria-controls="collapseSecondaryThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSecondaryThree" class="accordion-collapse collapse" aria-labelledby="headingSecondaryThree" data-bs-parent="#accordionSecondaryExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="card custom-card">
+                        <div class="card-header justify-content-between">
+                            <div class="card-title">Custom Icon Accordion</div>
+                          
+                        </div>
+                        <div class="card-body">
+                            <div class="accordion accordion-customicon1 accordions-items-seperate" id="accordioncustomicon1Example">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingcustomicon1One">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsecustomicon1One" aria-expanded="true" aria-controls="collapsecustomicon1One">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="collapsecustomicon1One" class="accordion-collapse collapse show" aria-labelledby="headingcustomicon1One" data-bs-parent="#accordioncustomicon1Example">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingcustomicon1Two">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsecustomicon1Two" aria-expanded="false" aria-controls="collapsecustomicon1Two">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="collapsecustomicon1Two" class="accordion-collapse collapse" aria-labelledby="headingcustomicon1Two" data-bs-parent="#accordioncustomicon1Example">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingcustomicon1Three">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsecustomicon1Three" aria-expanded="false" aria-controls="collapsecustomicon1Three">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="collapsecustomicon1Three" class="accordion-collapse collapse" aria-labelledby="headingcustomicon1Three" data-bs-parent="#accordioncustomicon1Example">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card custom-card">
+                        <div class="card-header justify-content-between">
+                            <div class="card-title">Custom Accordion</div>
+                           
+                        </div>
+                        <div class="card-body">
+                            <div class="accordion customized-accordion accordions-items-seperate" id="customizedAccordion">
+                                <div class="accordion-item custom-accordion-primary">
+                                    <h2 class="accordion-header" id="customizedAccordionOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#customized-AccordionOne" aria-expanded="true" aria-controls="customized-AccordionOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="customized-AccordionOne" class="accordion-collapse collapse show" aria-labelledby="customizedAccordionOne" data-bs-parent="#customizedAccordion">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item custom-accordion-secondary">
+                                    <h2 class="accordion-header" id="customizedAccordionTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#customized-AccordionTwo" aria-expanded="false" aria-controls="customized-AccordionTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="customized-AccordionTwo" class="accordion-collapse collapse" aria-labelledby="customizedAccordionTwo" data-bs-parent="#customizedAccordion">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item custom-accordion-danger">
+                                    <h2 class="accordion-header" id="customizedAccordionThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#customized-AccordionThree" aria-expanded="false" aria-controls="customized-AccordionThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="customized-AccordionThree" class="accordion-collapse collapse" aria-labelledby="customizedAccordionThree" data-bs-parent="#customizedAccordion">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes
+                                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth
+                                            noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End::app-content -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <a href="#" class="input-group-text" id="Search-Grid"><i
+                                    class="fe fe-search header-link-icon fs-18"></i></a>
+                            <input type="search" class="form-control border-0 px-2" placeholder="Search"
+                                aria-label="Username" />
+
+                        </div>
+                        <div class="mt-4">
+                            <p class="font-weight-semibold text-muted mb-2">Are You Looking For...</p>
+                            <span class="search-tags">
+                                <i class="fe fe-user me-2"></i>People<a href="#" class="tag-addon"><i
+                                        class="fe fe-x"></i></a>
+                            </span>
+                            <span class="search-tags">
+                                <i class="fe fe-file-text me-2"></i>Product<a href="#" class="tag-addon"><i
+                                        class="fe fe-x"></i></a>
+                            </span>
+                            <span class="search-tags">
+                                <i class="fe fe-align-left me-2"></i>Articles<a href="#" class="tag-addon"><i
+                                        class="fe fe-x"></i></a>
+                            </span>
+                            <span class="search-tags">
+                                <i class="fe fe-server me-2"></i>Offerds<a href="#" class="tag-addon"><i
+                                        class="fe fe-x"></i></a>
+                            </span>
+                        </div>
+                        <div class="my-4">
+                            <p class="font-weight-semibold text-muted mb-2">Recent Search :</p>
+                            <div class="p-2 border br-5 d-flex align-items-center text-muted mb-2 alert">
+                                <a href="#"><span>Notifications</span></a> <a class="ms-auto lh-1" href="#"
+                                    data-bs-dismiss="alert" aria-label="Close"><i class="fe fe-x text-muted"></i></a>
+                            </div>
+                            <div class="p-2 border br-5 d-flex align-items-center text-muted mb-2 alert">
+                                <a href="#"><span>Alerts</span></a> <a class="ms-auto lh-1" href="#"
+                                    data-bs-dismiss="alert" aria-label="Close"><i class="fe fe-x text-muted"></i></a>
+                            </div>
+                            <div class="p-2 border br-5 d-flex align-items-center text-muted mb-0 alert">
+                                <a href="#"><span>Mail</span></a> <a class="ms-auto lh-1" href="#"
+                                    data-bs-dismiss="alert" aria-label="Close"><i class="fe fe-x text-muted"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-group ms-auto"><button class="btn btn-sm btn-primary-light">Search</button>
+                            <button class="btn btn-sm btn-primary">Clear Recents</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Start -->
+        <footer class="footer mt-auto py-3 bg-white text-center">
+            <div class="container">
+                <span class="text-muted">
+                    Copyright © 2023<span id="year"></span> <a href="#" class="text-dark fw-semibold"> Almas Arabic
+                        Pack</a>.
+                    All rights reserved
+                </span>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
+    <div class="scrollToTop">
+        <span class="arrow"><i class="ri-arrow-up-s-fill fs-20"></i></span>
+    </div>
+    <div id="responsive-overlay"></div>
+    <!-- Popper JS -->
+    <script src="assets/libs/%40popperjs/core/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Defaultmenu JS -->
+    <script src="assets/js/defaultmenu.min.js"></script>
+    <!-- Node Waves JS-->
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <!-- Sticky JS -->
+    <script src="assets/js/sticky.js"></script>
+    <!-- Simplebar JS -->
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/js/simplebar.js"></script>
+    <!-- Color Picker JS -->
+    <script src="assets/libs/%40simonwep/pickr/pickr.es5.min.js"></script>
+    <!-- JSVector Maps JS -->
+    <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+    <!-- JSVector Maps MapsJS -->
+    <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+    <!-- Apex Charts JS -->
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+    <!-- Chartjs Chart JS -->
+    <script src="assets/libs/chart.js/chart.min.js"></script>
+    <!-- CRM-Dashboard -->
+    <script src="assets/js/crm-dashboard.js"></script>
+
+    <script src="assets/js/choices.js"></script>
+    <!-- Quill Editor JS -->
+    <script src="assets/libs/quill/quill.min.js"></script>
+    <!-- Internal Quill JS -->
+    <script src="assets/js/quill-editor.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+    <!-- Internal Select-2.js -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $('#basic-usage').select2({
+            theme: "bootstrap-5",
+            width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+            placeholder: $(this).data('placeholder'),
+        });
+    </script>
+
+</body>
+
+</html>

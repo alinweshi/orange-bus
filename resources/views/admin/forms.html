@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-nav-layout="vertical" data-theme-mode="light" data-header-styles="light"
+    data-menu-styles="dark" data-toggled="close">
+
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Almas Arabic Pack</title>
+    <meta name="Description" content="Almas Arabic Pack" />
+    <meta name="Author" content="Almas Arabic Pack" />
+    <meta name="keywords" content="Almas Arabic Pack" />
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <!-- Choices JS -->
+    <script src="assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <!-- Main Theme Js -->
+    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap Css -->
+    <link id="style" href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Style Css -->
+    <link href="assets/css/styles.min.css" rel="stylesheet" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.css" rel="stylesheet" />
+    <!-- Node Waves Css -->
+    <link href="assets/libs/node-waves/waves.min.css" rel="stylesheet" />
+    <!-- Simplebar Css -->
+    <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet" />
+    <!-- Color Picker Css -->
+    <link rel="stylesheet" href="assets/libs/flatpickr/flatpickr.min.css" />
+    <link rel="stylesheet" href="assets/libs/%40simonwep/pickr/themes/nano.min.css" />
+    <!-- Choices Css -->
+    <link rel="stylesheet" href="assets/libs/choices.js/public/assets/styles/choices.min.css" />
+    <link rel="stylesheet" href="assets/libs/jsvectormap/css/jsvectormap.min.css" />
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css" />
+    <!-- selct2  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+    <link rel="stylesheet" href="assets/libs/quill/quill.snow.css" />
+    <link rel="stylesheet" href="assets/libs/quill/quill.bubble.css" />
+
+
+    <link rel="stylesheet" href="assets/css/adminstyle.css">
+
+</head>
+
+<body>
+
+    <div class="page">
+        <!-- app-header -->
+        <header class="app-header">
+            <!-- Start::main-header-container -->
+            <div class="main-header-container container-fluid">
+                <!-- Start::header-content-left -->
+                <div class="header-content-left">
+                    <!-- Start::header-element -->
+                    <div class="header-element">
+                        <div class="horizontal-logo">
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/images/logo22.png" alt="logo" class="desktop-logo" />
+                                <img src="assets/images/favicon.png" alt="logo" class="toggle-logo" />
+                                <img src="assets/images/logo12.png" alt="logo" class="desktop-dark" />
+                                <img src="assets/images/favicon.png" alt="logo" class="toggle-dark" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End::header-element -->
+                    <!-- Start::header-element -->
+                    <div class="header-element">
+                        <!-- Start::header-link -->
+                        <a aria-label="Hide Sidebar"
+                            class="sidemenu-toggle header-link animated-arrow hor-toggle horizontal-navtoggle"
+                            data-bs-toggle="sidebar" href="#"><span></span></a>
+                        <!-- End::header-link -->
+                    </div>
+                    <!-- End::header-element -->
+                </div>
+                <!-- End::header-content-left -->
+                <!-- Start::header-content-right -->
+                <div class="header-content-right">
+                    <!-- Start::header-element -->
+                    <div class="header-element header-search">
+                        <!-- Start::header-link -->
+                        <a href="#" class="header-link" data-bs-toggle="modal" data-bs-target="#searchModal"> <i
+                                class="bx bx-search-alt-2 header-link-icon"></i> </a>
+                        <!-- End::header-link -->
+                    </div>
+                    <!-- End::header-element -->
+                    <!-- Start::header-element -->
+                    <div class="header-element country-selector">
+                        <!-- Start::header-link|dropdown-toggle -->
+                        <a href="#" class="header-link dropdown-toggle" data-bs-auto-close="outside"
+                            data-bs-toggle="dropdown"> <img src="assets/images/flags/us_flag.jpg" alt="img"
+                                class="rounded-circle" /> </a>
+                        <!-- End::header-link|dropdown-toggle -->
+                        <ul class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img src="assets/images/flags/us_flag.jpg"
+                                            alt="img" /> </span> English
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img src="assets/images/flags/egypt.png"
+                                            alt="img" /> </span> Arabic
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img
+                                            src="assets/images/flags/french_flag.jpg" alt="img" /> </span> French
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img
+                                            src="assets/images/flags/germany_flag.jpg" alt="img" /> </span> German
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img
+                                            src="assets/images/flags/italy_flag.jpg" alt="img" /> </span> Italian
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <span class="avatar avatar-xs lh-1 me-2"> <img
+                                            src="assets/images/flags/russia_flag.jpg" alt="img" /> </span> Russian
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Start::header-element -->
+                    <div class="header-element cart-dropdown">
+                        <!-- Start::header-link|dropdown-toggle -->
+                        <a href="#" class="header-link dropdown-toggle" data-bs-auto-close="outside"
+                            data-bs-toggle="dropdown">
+                            <i class="bx bx-cart header-link-icon"></i> <span
+                                class="badge bg-primary rounded-pill header-icon-badge" id="cart-icon-badge">5</span>
+                        </a>
+                        <!-- End::header-link|dropdown-toggle -->
+                        <!-- Start::main-header-dropdown -->
+                        <div class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
+                            <div class="p-3">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p class="mb-0 fs-17 fw-semibold">Cart Items</p>
+                                    <span class="badge bg-success-transparent" id="cart-data">5 Items</span>
+                                </div>
+                            </div>
+                            <div>
+                                <hr class="dropdown-divider" />
+                            </div>
+                            <ul class="list-unstyled mb-0" id="header-cart-items-scroll">
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/1.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">SomeThing
+                                                        Phone</a></div>
+                                                <div>
+                                                    <span class="text-black mb-1">$1,299.00</span> <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="min-w-fit-content d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item d-flex">
+                                                    <li>Metallic Blue</li>
+                                                    <li>6gb Ram</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/3.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">Stop Watch</a>
+                                                </div>
+                                                <div>
+                                                    <span class="text-black mb-1">$179.29</span>
+                                                    <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="min-w-fit-content d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item">
+                                                    <li>Analog</li>
+                                                    <li><span class="badge bg-pink-transparent fs-10">Free
+                                                            shipping</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/5.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">Photo
+                                                        Frame</a></div>
+                                                <div>
+                                                    <span class="text-black mb-1">$29.00</span> <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="min-w-fit-content d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item d-flex">
+                                                    <li>Decorative</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/4.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">Kikon
+                                                        Camera</a></div>
+                                                <div>
+                                                    <span class="text-black mb-1">$4,999.00</span> <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="min-w-fit-content d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item d-flex">
+                                                    <li>Black</li>
+                                                    <li>50MM</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start cart-dropdown-item">
+                                        <img src="assets/images/ecommerce/jpg/6.jpg" alt="img"
+                                            class="avatar avatar-sm avatar-rounded br-5 me-3" />
+                                        <div class="flex-grow-1">
+                                            <div class="d-flex align-items-start justify-content-between mb-0">
+                                                <div class="mb-0 fs-13 text-dark fw-semibold"><a href="#">Canvas
+                                                        Shoes</a></div>
+                                                <div>
+                                                    <span class="text-black mb-1">$129.00</span> <a href="#"
+                                                        class="header-cart-remove float-end dropdown-item-close"><i
+                                                            class="ti ti-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <ul class="header-product-item d-flex">
+                                                    <li>Gray</li>
+                                                    <li>Sports</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="p-3 empty-header-item border-top">
+                                <div class="d-grid"><a href="#" class="btn btn-primary">Proceed to checkout</a></div>
+                            </div>
+                            <!-- if Cart is Empty show this  -->
+                            <div class="p-5 empty-item d-none">
+                                <div class="text-center">
+                                    <span class="avatar avatar-xl avatar-rounded bg-warning-transparent"> <i
+                                            class="ri-shopping-cart-2-line fs-2"></i> </span>
+                                    <h6 class="fw-bold mb-1 mt-3">Your Cart is Empty</h6>
+                                    <span class="mb-3 fw-normal fs-13 d-block">Add some items to make me happy :)</span>
+                                    <a href="#" class="btn btn-primary btn-wave btn-sm m-1" data-abc="true">continue
+                                        shopping <i class="bi bi-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End::main-header-dropdown -->
+                    </div>
+                    <!-- End::header-element -->
+                    <!-- Start::header-element -->
+                    <div class="header-element notifications-dropdown">
+                        <!-- Start::header-link|dropdown-toggle -->
+                        <a href="#" class="header-link dropdown-toggle" data-bs-toggle="dropdown"
+                            data-bs-auto-close="outside" id="messageDropdown" aria-expanded="false">
+                            <i class="bx bx-bell header-link-icon"></i> <span
+                                class="badge bg-secondary rounded-pill header-icon-badge pulse pulse-secondary"
+                                id="notification-icon-badge">5</span>
+                        </a>
+                        <!-- End::header-link|dropdown-toggle -->
+                        <!-- Start::main-header-dropdown -->
+                        <div class="main-header-dropdown dropdown-menu dropdown-menu-end" data-popper-placement="none">
+                            <div class="p-3">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p class="mb-0 fs-17 fw-semibold">Notifications</p>
+                                    <span class="badge bg-secondary-transparent" id="notifiation-data">5 Unread</span>
+                                </div>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <ul class="list-unstyled mb-0" id="header-notification-scroll">
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-primary-transparent avatar-rounded"><i
+                                                    class="ti ti-gift fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold"><a href="#">Your Order Has Been Shipped</a>
+                                                </p>
+                                                <span class="text-muted fw-normal fs-12 header-notification-text">Order
+                                                    No: 123456 Has Shipped To Your Delivery Address</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-secondary-transparent avatar-rounded"><i
+                                                    class="ti ti-discount-2 fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold"><a href="#">Discount Available</a></p>
+                                                <span
+                                                    class="text-muted fw-normal fs-12 header-notification-text">Discount
+                                                    Available On Selected Products</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-pink-transparent avatar-rounded"><i
+                                                    class="ti ti-user-check fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold"><a href="#">Account Has Been Verified</a>
+                                                </p>
+                                                <span class="text-muted fw-normal fs-12 header-notification-text">Your
+                                                    Account Has Been Verified Sucessfully</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-warning-transparent avatar-rounded"><i
+                                                    class="ti ti-circle-check fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold">
+                                                    <a href="#">Order Placed <span class="text-warning">ID:
+                                                            #1116773</span></a>
+                                                </p>
+                                                <span class="text-muted fw-normal fs-12 header-notification-text">Order
+                                                    Placed Successfully</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-2">
+                                            <span class="avatar avatar-md bg-success-transparent avatar-rounded"><i
+                                                    class="ti ti-clock fs-18"></i></span>
+                                        </div>
+                                        <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <p class="mb-0 fw-semibold">
+                                                    <a href="#">Order Delayed <span class="text-success">ID:
+                                                            7731116</span></a>
+                                                </p>
+                                                <span class="text-muted fw-normal fs-12 header-notification-text">Order
+                                                    Delayed Unfortunately</span>
+                                            </div>
+                                            <div>
+                                                <a href="#"
+                                                    class="min-w-fit-content text-muted me-1 dropdown-item-close1"><i
+                                                        class="ti ti-x fs-16"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="p-3 empty-header-item1 border-top">
+                                <div class="d-grid"><a href="#" class="btn btn-primary">View All</a></div>
+                            </div>
+                            <!-- if No New Notifications  -->
+                            <div class="p-5 empty-item1 d-none">
+                                <div class="text-center">
+                                    <span class="avatar avatar-xl avatar-rounded bg-secondary-transparent"> <i
+                                            class="ri-notification-off-line fs-2"></i> </span>
+                                    <h6 class="fw-semibold mt-3">No New Notifications</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End::main-header-dropdown -->
+                    </div>
+                    <!-- End::header-element -->
+
+                    <!-- Start::header-element -->
+                    <div class="header-element">
+                        <!-- Start::header-link|dropdown-toggle -->
+                        <a href="#" class="header-link dropdown-toggle" id="mainHeaderProfile" data-bs-toggle="dropdown"
+                            data-bs-auto-close="outside" aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <div class="me-sm-2 me-0"><img src="assets/images/faces/9.jpg" alt="img" width="32"
+                                        height="32" class="rounded-circle" /></div>
+                                <div class="d-sm-block d-none">
+                                    <p class="fw-semibold mb-0 lh-1">Vendor Name </p>
+                                    <span class="op-7 fw-normal d-block fs-11">Web Designer</span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- End::header-link|dropdown-toggle -->
+                        <ul class="main-header-dropdown dropdown-menu pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end"
+                            aria-labelledby="mainHeaderProfile">
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i
+                                        class="ti ti-user-circle fs-18 me-2 op-7"></i>Profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i
+                                        class="ti ti-inbox fs-18 me-2 op-7"></i>Inbox <span
+                                        class="badge bg-success-transparent ms-auto">25</span></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex border-block-end" href="#"><i
+                                        class="ti ti-clipboard-check fs-18 me-2 op-7"></i>Task Manager</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i
+                                        class="ti ti-adjustments-horizontal fs-18 me-2 op-7"></i>Settings</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex border-block-end" href="#"><i
+                                        class="ti ti-wallet fs-18 me-2 op-7"></i>Bal: $7,12,950</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i
+                                        class="ti ti-headset fs-18 me-2 op-7"></i>Support</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex" href="#"><i class="ti ti-logout fs-18 me-2 op-7"></i>Log
+                                    Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End::header-element -->
+
+                </div>
+                <!-- End::header-content-right -->
+            </div>
+            <!-- End::main-header-container -->
+        </header>
+        <!-- /app-header -->
+        <!-- Start::app-sidebar -->
+        <aside class="app-sidebar sticky" id="sidebar">
+            <!-- Start::main-sidebar-header -->
+            <div class="main-sidebar-header">
+                <a href="index.html" class="header-logo">
+                    <img src="assets/images/logo22.png" alt="logo" class="desktop-logo" />
+                    <img src="assets/images/favicon.png" alt="logo" class="toggle-logo" />
+                    <img src="assets/images/logo22.png" alt="logo" class="desktop-dark" />
+                    <img src="assets/images/favicon.png" alt="logo" class="toggle-dark" />
+                </a>
+            </div>
+            <!-- End::main-sidebar-header -->
+            <!-- Start::main-sidebar -->
+            <div class="main-sidebar" id="sidebar-scroll">
+                <!-- Start::nav -->
+                <nav class="main-menu-container nav nav-pills flex-column sub-open">
+                    <div class="slide-left" id="slide-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
+                        </svg>
+                    </div>
+                    <ul class="main-menu">
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item active"> <i class="bx bx-home side-menu__icon">
+                                </i> <span class="side-menu__label">Dashboard</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide__category -->
+                        <li class="slide__category"><span class="category-name"> Pages</span></li>
+                        <!-- End::slide__category -->
+                        <!-- Start::slide -->
+
+                        <li class="slide has-sub">
+                            <a href="#" class="side-menu__item"> <i class="bx bx-layer side-menu__icon"></i> <span
+                                    class="side-menu__label">
+                                    All components</span> <i class="fe fe-chevron-right side-menu__angle"></i> </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1"><a href="#"> All components </a></li>
+                                <li class="slide"><a href="tables.html" class="side-menu__item">tables </a></li>
+                                <li class="slide"><a href="forms.html" class="side-menu__item">forms </a></li>
+                                <li class="slide"><a href="alert&Pagination.html" class="side-menu__item">Alert & Pagination </a></li>
+                                <li class="slide"><a href="cards.html" class="side-menu__item">Cards </a></li>
+                                <li class="slide"><a href="tabs.html" class="side-menu__item">Tabs & Accordions </a></li>
+                           
+                            </ul>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="bx bx-fingerprint side-menu__icon">
+                                </i> <span class="side-menu__label">Roles</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="ti ti-users side-menu__icon">
+                                </i> <span class="side-menu__label">Employees</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="bx bx-box side-menu__icon">
+                                </i> <span class="side-menu__label">Products</span> </a>
+                        </li>
+                        <!-- End::slide -->
+
+                        <!-- Start::slide -->
+                        <li class="slide has-sub">
+                            <a href="#" class="side-menu__item"> <i class="bx bx-layer side-menu__icon"></i> <span
+                                    class="side-menu__label">
+                                    All Order</span> <i class="fe fe-chevron-right side-menu__angle"></i> </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1"><a href="#">All Order</a></li>
+                                <li class="slide"><a href="#" class="side-menu__item">All Order</a></li>
+                                <li class="slide"><a href="#" class="side-menu__item">Requested Order</a></li>
+                                <li class="slide"><a href="#" class="side-menu__item">Assigned Order</a></li>
+                            </ul>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="bx bx-party side-menu__icon">
+                                </i> <span class="side-menu__label">Offers</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="ti ti-user-circle side-menu__icon">
+                                </i> <span class="side-menu__label">Vendor Profile</span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide has-sub">
+                            <a href="#" class="side-menu__item"> <i class="bx bx-user side-menu__icon"></i> <span
+                                    class="side-menu__label">
+                                    Profile </span> <i class="fe fe-chevron-right side-menu__angle"></i> </a>
+                            <ul class="slide-menu child1">
+                                <li class="slide side-menu__label1"><a href="#"> My Profile </a></li>
+                                <li class="slide"><a href="#" class="side-menu__item"> My Profile </a></li>
+                                <li class="slide"><a href="#" class="side-menu__item">Change Password </a></li>
+
+                            </ul>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="bx bx-file side-menu__icon">
+                                </i> <span class="side-menu__label">Reports </span> </a>
+                        </li>
+                        <!-- End::slide -->
+                        <!-- Start::slide -->
+                        <li class="slide">
+                            <a href="#" class="side-menu__item "> <i class="ti ti-headset side-menu__icon">
+                                </i> <span class="side-menu__label">Support </span> </a>
+                        </li>
+                        <!-- End::slide -->
+                    </ul>
+                    <div class="slide-right" id="slide-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                        </svg>
+                    </div>
+                </nav>
+                <!-- End::nav -->
+            </div>
+            <!-- End::main-sidebar -->
+        </aside>
+        <!-- End::app-sidebar -->
+        <!-- Start::app-content -->
+        <div class="main-content app-content">
+            <div class="container-fluid">
+                <!-- Page Header -->
+                <div class="d-md-flex d-block align-items-center justify-content-between my-4 page-header-breadcrumb">
+                    <h1 class="page-title fw-semibold fs-18 mb-0">forms</h1>
+                    <div class="ms-md-1 ms-0">
+                        <nav>
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item"><a href="#">forms</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">form</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Page Header Close -->
+                <!-- Start:: row-1 -->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card custom-card">
+                            <div class="card-header justify-content-between">
+                                <div class="card-title">Input Types</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row gy-4">
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <p class="mb-2 text-muted">Basic Input:</p>
+                                        <input type="text" class="form-control" id="input" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-label"
+                                            class="form-label">Form Input With Label</label> <input type="text"
+                                            class="form-control" id="input-label" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-placeholder" class="form-label">Form Input With
+                                            Placeholder</label> <input type="text" class="form-control"
+                                            id="input-placeholder" placeholder="Placeholder" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-text"
+                                            class="form-label">Type Text</label> <input type="text" class="form-control"
+                                            id="input-text" placeholder="Text" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-number" class="form-label">Type Number</label> <input
+                                            type="number" class="form-control" id="input-number" placeholder="Number" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-password" class="form-label">Type Password</label> <input
+                                            type="password" class="form-control" id="input-password"
+                                            placeholder="Password" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-email" class="form-label">Type Email</label> <input
+                                            type="email" class="form-control" id="input-email"
+                                            placeholder="Email@xyz.com" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-tel" class="form-label">Type Tel</label> <input type="tel"
+                                            class="form-control" id="input-tel" placeholder="+1100-2031-1233" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-date"
+                                            class="form-label">Type Date</label> <input type="date" class="form-control"
+                                            id="input-date" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-week"
+                                            class="form-label">Type Week</label> <input type="week" class="form-control"
+                                            id="input-week" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-month"
+                                            class="form-label">Type Month</label> <input type="month"
+                                            class="form-control" id="input-month" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-time"
+                                            class="form-label">Type Time</label> <input type="time" class="form-control"
+                                            id="input-time" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-datetime-local" class="form-label">Type datetime-local</label>
+                                        <input type="datetime-local" class="form-control" id="input-datetime-local" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-search" class="form-label">Type Search</label> <input
+                                            type="search" class="form-control" id="input-search" placeholder="Search" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-submit"
+                                            class="form-label">Type Submit</label> <input type="submit"
+                                            class="form-control" id="input-submit" value="Submit" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-reset"
+                                            class="form-label">Type Reset</label> <input type="reset"
+                                            class="form-control" id="input-reset" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-button" class="form-label">Type Button</label> <input
+                                            type="button" class="form-control btn btn-primary" id="input-button"
+                                            value="Button" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="row">
+                                            <div class="col-xl-3"><label class="form-label">Type Color</label> <input
+                                                    class="form-control form-input-color" type="color"
+                                                    value="#136bd0" /></div>
+                                            <div class="col-xl-5">
+                                                <div class="form-check">
+                                                    <p class="mb-3 px-0 text-muted">Type Checkbox</p>
+                                                    <input class="form-check-input ms-2" type="checkbox" value=""
+                                                        checked="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <div class="form-check">
+                                                    <p class="mb-3 px-0 text-muted">Type Radio</p>
+                                                    <input class="form-check-input ms-2" type="radio" checked="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="input-file"
+                                            class="form-label">Type File</label> <input class="form-control" type="file"
+                                            id="input-file" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label class="form-label">Type
+                                            Url</label> <input class="form-control" type="url" name="website"
+                                            placeholder="http://example.com/" /></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-disabled" class="form-label">Type Disabled</label> <input
+                                            type="text" id="input-disabled" class="form-control"
+                                            placeholder="Disabled input" disabled="" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-readonlytext" class="form-label">Input Readonly Text</label>
+                                        <input type="text" readonly="" class="form-control-plaintext"
+                                            id="input-readonlytext" value="email@example.com" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="disabled-readonlytext" class="form-label">Disabled Readonly
+                                            Input</label>
+                                        <input class="form-control" type="text" value="Disabled readonly input"
+                                            id="disabled-readonlytext" aria-label="Disabled input example" disabled=""
+                                            readonly="" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label class="form-label">Type Readonly Input</label> <input
+                                            class="form-control" type="text" value="Readonly input here..."
+                                            aria-label="readonly input example" readonly="" />
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><label for="text-area"
+                                            class="form-label">Textarea</label> <textarea class="form-control"
+                                            id="text-area" rows="1"></textarea></div>
+                                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                        <label for="input-DataList" class="form-label">Datalist example</label> <input
+                                            class="form-control" list="datalistOptions" id="input-DataList"
+                                            placeholder="Type to search..." />
+                                        <datalist id="datalistOptions">
+                                            <option value="San Francisco"> </option>
+                                            <option value="New York"> </option>
+                                            <option value="Seattle"> </option>
+                                            <option value="Los Angeles"> </option>
+                                            <option value="Chicago"> </option>
+                                        </datalist>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End:: row-1 -->
+                <!-- Start:: row-2 -->
+                <h6 class="fw-semibold mb-2">Choices:</h6>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="row">
+
+                            <div class="col-xl-12">
+                                <div class="card custom-card">
+                                    <div class="card-header d-flex align-items-center justify-content-between">
+                                        <h6 class="card-title">Multiple Select</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="fw-semibold mb-2">Default</p>
+                                        <select class="form-control" data-trigger name="choices-multiple-default"
+                                            id="choices-multiple-default" multiple>
+                                            <option value="Choice 1" selected>Choice 1</option>
+                                            <option value="Choice 2">Choice 4</option>
+                                            <option value="Choice 3">Choice 5</option>
+                                            <option value="Choice 4" disabled>Choice 6</option>
+                                        </select>
+                                        <p class="fw-semibold mb-2">With Remove Button</p>
+                                        <select class="form-control" name="choices-multiple-remove-button"
+                                            id="choices-multiple-remove-button" multiple>
+                                            <option value="Choice 1" selected>Choice 1</option>
+                                            <option value="Choice 2">Choice 2</option>
+                                            <option value="Choice 3">Choice 3</option>
+                                            <option value="Choice 4">Choice 4</option>
+                                        </select>
+                                        <p class="fw-semibold mb-2">Option groups</p>
+                                        <select class="form-control" name="choices-multiple-groups"
+                                            id="choices-multiple-groups" multiple>
+                                            <option value="">Choose a city</option>
+                                            <optgroup label="UK">
+                                                <option value="London">London</option>
+                                                <option value="Manchester">Manchester</option>
+                                                <option value="Liverpool">Liverpool</option>
+                                            </optgroup>
+                                            <optgroup label="FR">
+                                                <option value="Paris">Paris</option>
+                                                <option value="Lyon">Lyon</option>
+                                                <option value="Marseille">Marseille</option>
+                                            </optgroup>
+                                            <optgroup label="DE" disabled>
+                                                <option value="Hamburg">Hamburg</option>
+                                                <option value="Munich">Munich</option>
+                                                <option value="Berlin">Berlin</option>
+                                            </optgroup>
+                                            <optgroup label="US">
+                                                <option value="New York">New York</option>
+                                                <option value="Washington" disabled>Washington</option>
+                                                <option value="Michigan">Michigan</option>
+                                            </optgroup>
+                                            <optgroup label="SP">
+                                                <option value="Madrid">Madrid</option>
+                                                <option value="Barcelona">Barcelona</option>
+                                                <option value="Malaga">Malaga</option>
+                                            </optgroup>
+                                            <optgroup label="CA">
+                                                <option value="Montreal">Montreal</option>
+                                                <option value="Toronto">Toronto</option>
+                                                <option value="Vancouver">Vancouver</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="card custom-card">
+                                    <div class="card-header">
+                                        <div class="card-title">Passing Through Options</div>
+                                    </div>
+                                    <div class="card-body"><input class="form-control" id="choices-text-preset-values"
+                                            type="text" value="three" placeholder="This is a placeholder" /></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="card custom-card">
+                                    <div class="card-header">
+                                        <div class="card-title">Options added via config with no search</div>
+                                    </div>
+                                    <div class="card-body">
+                                        <select class="form-control" name="choices-single-no-search"
+                                            id="choices-single-no-search">
+                                            <option value="0">Zero</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="card custom-card">
+                                    <div class="card-header">
+                                        <div class="card-title">Basic Select2</div>
+                                    </div>
+                                    <div class="card-body">
+                                        <select class="form-select" id="basic-usage"
+                                            data-placeholder="Choose one thing">
+                                            <option></option>
+                                            <option>Reactive</option>
+                                            <option>Solution</option>
+                                            <option>Conglomeration</option>
+                                            <option>Algoritm</option>
+                                            <option>Holistic</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="card custom-card">
+                                    <div class="card-header">
+                                        <div class="card-title">Email Address Only</div>
+                                    </div>
+                                    <div class="card-body"><input class="form-control" id="choices-text-email-filter"
+                                            type="text" placeholder="This is a placeholder" /></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="card custom-card">
+                                    <div class="card-header">
+                                        <div class="card-title">Passing Unique Values</div>
+                                    </div>
+                                    <div class="card-body"><input class="form-control" id="choices-text-unique-values"
+                                            type="text" value="child-1, child-2" placeholder="This is a placeholder" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End:: row-2-->
+                <!-- Start:: row-3 editor -->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card custom-card">
+                            <div class="card-header">
+                                <div class="card-title">Quill Snow Editor</div>
+                            </div>
+                            <div class="card-body">
+                                <div id="editor">
+                                    typing here
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end:: row-3 editor -->
+
+            </div>
+        </div>
+        <!-- End::app-content -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <a href="#" class="input-group-text" id="Search-Grid"><i
+                                    class="fe fe-search header-link-icon fs-18"></i></a>
+                            <input type="search" class="form-control border-0 px-2" placeholder="Search"
+                                aria-label="Username" />
+
+                        </div>
+                        <div class="mt-4">
+                            <p class="font-weight-semibold text-muted mb-2">Are You Looking For...</p>
+                            <span class="search-tags">
+                                <i class="fe fe-user me-2"></i>People<a href="#" class="tag-addon"><i
+                                        class="fe fe-x"></i></a>
+                            </span>
+                            <span class="search-tags">
+                                <i class="fe fe-file-text me-2"></i>Product<a href="#" class="tag-addon"><i
+                                        class="fe fe-x"></i></a>
+                            </span>
+                            <span class="search-tags">
+                                <i class="fe fe-align-left me-2"></i>Articles<a href="#" class="tag-addon"><i
+                                        class="fe fe-x"></i></a>
+                            </span>
+                            <span class="search-tags">
+                                <i class="fe fe-server me-2"></i>Offerds<a href="#" class="tag-addon"><i
+                                        class="fe fe-x"></i></a>
+                            </span>
+                        </div>
+                        <div class="my-4">
+                            <p class="font-weight-semibold text-muted mb-2">Recent Search :</p>
+                            <div class="p-2 border br-5 d-flex align-items-center text-muted mb-2 alert">
+                                <a href="#"><span>Notifications</span></a> <a class="ms-auto lh-1" href="#"
+                                    data-bs-dismiss="alert" aria-label="Close"><i class="fe fe-x text-muted"></i></a>
+                            </div>
+                            <div class="p-2 border br-5 d-flex align-items-center text-muted mb-2 alert">
+                                <a href="#"><span>Alerts</span></a> <a class="ms-auto lh-1" href="#"
+                                    data-bs-dismiss="alert" aria-label="Close"><i class="fe fe-x text-muted"></i></a>
+                            </div>
+                            <div class="p-2 border br-5 d-flex align-items-center text-muted mb-0 alert">
+                                <a href="#"><span>Mail</span></a> <a class="ms-auto lh-1" href="#"
+                                    data-bs-dismiss="alert" aria-label="Close"><i class="fe fe-x text-muted"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-group ms-auto"><button class="btn btn-sm btn-primary-light">Search</button>
+                            <button class="btn btn-sm btn-primary">Clear Recents</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Start -->
+        <footer class="footer mt-auto py-3 bg-white text-center">
+            <div class="container">
+                <span class="text-muted">
+                    Copyright © 2023<span id="year"></span> <a href="#" class="text-dark fw-semibold"> Almas Arabic
+                        Pack</a>.
+                    All rights reserved
+                </span>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
+    <div class="scrollToTop">
+        <span class="arrow"><i class="ri-arrow-up-s-fill fs-20"></i></span>
+    </div>
+    <div id="responsive-overlay"></div>
+    <!-- Popper JS -->
+    <script src="assets/libs/%40popperjs/core/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Defaultmenu JS -->
+    <script src="assets/js/defaultmenu.min.js"></script>
+    <!-- Node Waves JS-->
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <!-- Sticky JS -->
+    <script src="assets/js/sticky.js"></script>
+    <!-- Simplebar JS -->
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/js/simplebar.js"></script>
+    <!-- Color Picker JS -->
+    <script src="assets/libs/%40simonwep/pickr/pickr.es5.min.js"></script>
+    <!-- JSVector Maps JS -->
+    <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+    <!-- JSVector Maps MapsJS -->
+    <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+    <!-- Apex Charts JS -->
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+    <!-- Chartjs Chart JS -->
+    <script src="assets/libs/chart.js/chart.min.js"></script>
+    <!-- CRM-Dashboard -->
+    <script src="assets/js/crm-dashboard.js"></script>
+
+    <script src="assets/js/choices.js"></script>
+    <!-- Quill Editor JS -->
+    <script src="assets/libs/quill/quill.min.js"></script>
+    <!-- Internal Quill JS -->
+    <script src="assets/js/quill-editor.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+    <!-- Internal Select-2.js -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $('#basic-usage').select2({
+            theme: "bootstrap-5",
+            width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+            placeholder: $(this).data('placeholder'),
+        });
+    </script>
+
+</body>
+
+</html>
